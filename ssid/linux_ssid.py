@@ -3,7 +3,7 @@ import sys
 from shutil import which
 
 from command_line_handler import CommandLineHandler
-from ssid_getter.ssid import SSID
+from .ssid import SSID
 
 
 class LinuxSSID(SSID):
